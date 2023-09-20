@@ -206,8 +206,8 @@ header {
 
 .header_icons {
   display: flex;
-  gap: 1em;
-  padding-top: 0.5em;
+  gap: 0.5em;
+  padding-top: 1em;
 }
 
 .eng {
@@ -226,4 +226,21 @@ header {
 .translate_p {
   font-size: 13px;
   font-weight: bold;
+}
+
+.footer_icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 1em;
+  padding-left: 5em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.linkedin {
+  z-index: 2;
 }
