@@ -6,6 +6,7 @@
 body {
   background-color: #e6f3c8;
   font-family: Quicksand, sans-serif;
+  overflow: hidden;
 }
 h1 {
   font-size: 64px;
@@ -40,6 +41,7 @@ h3 {
   position: relative;
   left: 20%;
 }
+
 .white_border {
   border: 15px solid #fff;
   display: flex;
