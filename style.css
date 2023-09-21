@@ -32,6 +32,9 @@ h3 {
   font-size: 20px;
   margin-top: 1rem;
 }
+.logo1 {
+  position: absolute;
+}
 .green_box {
   background-color: #d4ec9f;
   width: 441px;
@@ -307,5 +310,9 @@ footer {
   }
   .hobby_icons {
     padding-top: 1em;
+  }
+  .logo1 {
+    max-width: 250px;
+    z-index: 1;
   }
 }
