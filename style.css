@@ -33,7 +33,7 @@ h3 {
   margin-top: 1rem;
 }
 .green_box {
-  background-color: #c8daa2;
+  background-color: #d4ec9f;
   width: 441px;
   height: 561px;
   display: flex;
@@ -162,6 +162,7 @@ main {
 .column2_box2_box4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 1em;
 }
 .column2_box2_box3 {
   padding-top: 3em;
