@@ -247,3 +247,65 @@ footer {
 .linkedin {
   z-index: 2;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-left: 2em;
+  }
+  .green_box {
+    width: 300px;
+    height: 440px;
+  }
+
+  .portrait {
+    height: 300px;
+  }
+
+  .procent_box {
+    width: 200px;
+  }
+
+  .eng_lilla {
+    width: 185px;
+  }
+
+  .dansk_lilla {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  .column2_box2_box3 {
+    padding: 0;
+    padding-top: 1.5em;
+  }
+
+  .column2_box2 {
+    max-height: 650px;
+  }
+
+  .flex_box {
+    padding-top: 1em;
+  }
+  .column1 {
+    align-items: start;
+  }
+
+  ul li {
+    font-size: 13px;
+  }
+  .hobby_icons {
+    padding-top: 1em;
+  }
+}
