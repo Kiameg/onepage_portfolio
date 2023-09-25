@@ -34,6 +34,7 @@ h3 {
 }
 .logo1 {
   position: absolute;
+  z-index: 1;
 }
 .green_box {
   background-color: #d4ec9f;
